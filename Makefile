@@ -19,7 +19,7 @@ lint:
 	yarn run standard
 
 link:
-	yarn link brigadehub-public-c4sf
+	yarn link brigadehub-public-c4sf-opensavannah
 	yarn link brigadehub-admin-c4sf
 	yarn link brigadehub-core
 
