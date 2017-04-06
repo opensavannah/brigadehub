@@ -7,6 +7,6 @@ const bhConfig = {
   info: '[Brigadehub]',
   version: pkg.version,
   brigade: brigade,
-  forceSSL: false
+  forceSSL: true
 }
 core(bhConfig)
