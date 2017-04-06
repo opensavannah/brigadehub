@@ -6,6 +6,7 @@ const bhConfig = {
   dotenv: require('./dotenv')(),
   info: '[Brigadehub]',
   version: pkg.version,
-  brigade: brigade
+  brigade: brigade,
+  forceSSL: false
 }
 core(bhConfig)
